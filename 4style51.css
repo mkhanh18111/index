@@ -254,7 +254,7 @@ label i{
     position: absolute;
     transform: translate(-50%,-50%);
 }
-.social4{
+.social4 a{
     width: 50%;
     float: left;
     text-align: left;
