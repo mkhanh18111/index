@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+   }
+   
+   .register-container {
+    width: 400px;
+    padding: 16px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 100px;
+    box-shadow: 0px 0px 10px 0px #000;
+   }
+   
+   .register-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 24px;
+   }
+   
+   .register-container label {
+    display: block;
+    color: #333;
+    margin-bottom: 4px;
+   }
+   
+   .register-container input[type="text"],
+   .register-container input[type="date"],
+   .register-container input[type="tel"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 24px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    outline: none;
+   }
+   
+   .register-container input[type="radio"] {
+    margin-bottom: 12px;
+   }
+   
+   .register-container label[for="hobbies"] {
+    display: inline-block;
+    margin-right: 12px;
+   }
+   
+   .register-container input[type="checkbox"] {
+    margin-right: 8px;
+   }
+   
+   .register-container textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 24px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    outline: none;
+   }
+   
+   .register-container input[type="submit"],
+   .register-container input[type="reset"] {
+    width: 100%;
+    padding: 8px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+   }
+   
+   .register-container input[type="submit"]:hover,
+   .register-container input[type="reset"]:hover {
+    background-color: #0056b3;
+   }

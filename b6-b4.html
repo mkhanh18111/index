@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Registration Form</title>
+ <link rel="stylesheet" type="text/css" href="b6-b4.css">
+</head>
+<body>
+ <div class="register-container">
+    <h1>FORM ĐĂNG KÝ</h1>
+    <form id="registration-form">
+      <label for="name">Tên:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="dob">Ngày sinh:</label>
+      <input type="date" id="dob" name="dob" required>
+      
+      <label for="gender">Giới tính:</label>
+      <label for="gender-male">Nam</label>
+      <input type="radio" id="gender-male" name="gender" value="male" required>
+      <label for="gender-female">Nữ</label>
+      <input type="radio" id="gender-female" name="gender" value="female">
+      
+      <label for="phone">Số điện thoại:</label>
+      <input type="tel" id="phone" name="phone" required>
+      
+      <label for="hobbies">Sở thích:</label>
+      <label for="hobbies-reading">
+        <input type="checkbox" id="hobbies-reading" name="hobbies[]" value="reading">
+        Đọc sách
+      </label>
+      <label for="hobbies-movies">
+        <input type="checkbox" id="hobbies-movies" name="hobbies[]" value="movies">
+        Xem phim
+      </label>
+      <label for="hobbies-music">
+        <input type="checkbox" id="hobbies-music" name="hobbies[]" value="music">
+        Nghe nhạc
+      </label>
+      <label for="hobbies-soccer">
+        <input type="checkbox" id="hobbies-soccer" name="hobbies[]" value="soccer">
+        Đá bóng
+      </label>
+      
+      <label for="other">Khác:</label>
+      <textarea id="other" name="other"></textarea>
+      
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+    </form>
+ </div>
+ <script src="b6-b2.js"></script>
+</body>
+</html>
